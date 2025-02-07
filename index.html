@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste It - Modern Fast Food</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Taste It Logo">
+            <h1>Taste It</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Taste It</h2>
+            <p>Experience the best fast food in town!</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="burger.jpg" alt="Burger" class="menu-img">
+                <h3>Classic Burger</h3>
+                <p>Delicious beef burger with fresh veggies.</p>
+                <p class="price">$5.99</p>
+            </div>
+            <div class="menu-item">
+                <img src="pizza.jpg" alt="Pizza" class="menu-img">
+                <h3>Pepperoni Pizza</h3>
+                <p>Cheesy pizza with pepperoni toppings.</p>
+                <p class="price">$8.99</p>
+            </div>
+            <div class="menu-item">
+                <img src="fries.jpg" alt="Fries" class="menu-img">
+                <h3>Crispy Fries</h3>
+                <p>Golden and crispy french fries.</p>
+                <p class="price">$3.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are passionate about serving the best fast food with a modern twist. Our ingredients are fresh, and our recipes are crafted to perfection.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:hajia4800@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Taste It. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
